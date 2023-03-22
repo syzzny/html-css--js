@@ -1,0 +1,73 @@
+/* 태그 디자인 */
+
+html{
+    scroll-behavior: smooth;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* 헤더와 네비게이션바 */
+.header{
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 2px solid darkblue;
+    transition: all 1s;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-menu li{
+    margin: 35px 20px;
+    /* li 태그안에 있는 모든 텍스트가 영향 */
+    font-size: 1.1rem;
+    transition: all 1s;
+}
+.logo{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:hotpink;
+}
+
+/* scroll event 발생시 바뀌는 nav 디자인 */
+.nav.scrollon{
+    color: whitesmoke;
+    background-color: #000;
+    transition: all 1s;
+}
+.nav.scrollon li a{
+    color: whitesmoke;
+    transition: all 1s;
+}
+.nav.scrollon div{
+    color: pink;
+}
+
+
+
+
+/* 메인의 섹션 */
+section{
+    height: 400px;
+    border: 1px solid darkblue;
+}
+.banner{
+    height: 100vh;
+}
+
+
+
+/* footer */
+.footer{
+    height: 200px;
+    background-color:darkslategray;
+}

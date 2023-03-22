@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrap{
+    background-image: url("/img/1.jpg");
+    background-repeat:no-repeat;
+    height: 900px;
+    margin: 0 auto;
+    max-width: 565px;
+    text-align: center;
+    position: relative;
+}
+
+/* 시계 */
+.time{
+    margin-top: 10px;
+    color: white;
+    font-size: 3.0rem;
+}
+#clock{
+    color: aliceblue;
+    -webkit-text-stroke: 2px darkblue;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 70px;
+}
+
+/* LOGIN */
+#login_id{
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 15px 0;
+    background-color: transparent;
+    color: whitesmoke;
+}
+#login_button{
+    width: 70px;
+    padding: 15px 0;
+    font-size: 15px;
+}
+
+
+/* todolist */
+#todolist{
+    width: 485px;
+    text-align: left;
+    color: darkblue;
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#todolist li{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: 'S-CoreDream-3Light';
+}
+#todolist li button{
+    width: 28px;
+    height: 28px;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    float: right;
+}
+#todolist input[type="checkbox"]{
+    margin-right: 15px;
+    cursor: pointer;
+}
+#todolist input[type="checkbox"]:checked{
+    background-color:lightsteelblue;
+    accent-color: lightsteelblue;
+}
+#todolist input[type="text"]:checked{
+    text-decoration: line-through;
+}
+
+
+/* todoform */
+.todoform{
+    position: absolute;
+    bottom: 70px;
+    left: 45px;
+}
+#todo_form input[type="text"]{
+    width: 350px;
+    padding: 12px 15px;
+    background-color: azure;
+    border: 3px solid darkblue;
+    color: darkblue;
+    border-radius: 50px;
+    font-family: 'S-CoreDream-3Light';
+}
+#todo_form input[type="submit"]{
+    width: 88px;
+    padding: 13px 15px;
+    background-color:darkblue;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    cursor: pointer;
+}
+
+#result{
+    width: 100px;
+    height: 40px;
+    color: darkblue;
+    margin-left: 23px;
+    margin-bottom: 25px;
+    line-height: 36px;
+    border-radius: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+}

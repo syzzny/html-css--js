@@ -33,4 +33,3 @@ prevButton.addEventListener("click",function(){
         }  
     }
 })
-
